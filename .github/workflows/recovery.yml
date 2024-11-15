@@ -9,7 +9,7 @@ on:
         default: 'https://www.mediafire.com/file/dgaolfiwghtc5bv/recovery.img/file'
 
 env:
-  RECOVERY_URL: https://oshi.at/Rpjg
+  RECOVERY_URL: https://www.mediafire.com/file/dgaolfiwghtc5bv/recovery.img/file
 
 jobs:
   build:
@@ -25,8 +25,8 @@ jobs:
 
     - name: Fetch image from URL
       run: |
-        wget https://www.mediafire.com/file/dgaolfiwghtc5bv/recovery.img/file -o recovery.img
-        
+        wget ${{ env.RECOVERY_URL }} -O recovery.img
+
 
     - name: Patch Process-1
       run: |
