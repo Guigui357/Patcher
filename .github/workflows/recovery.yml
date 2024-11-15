@@ -9,8 +9,7 @@ on:
         default: 'https://www.mediafire.com/file/dgaolfiwghtc5bv/recovery.img/file'
 
 env:
-  RECOVERY_URL: https://www.mediafire.com/file/dgaolfiwghtc5bv/recovery.img/file
-
+  RECOVERY_URL: https://download1349.mediafire.com/bq16zl7c0rngpOvXH1Hlpw8yNxGYhavw7RhL-IrCZKhpmdPMfXQdCSrTEtm7aFNeFkwE131VbYpODPezjZ9ViEP-x4jrULk5BqueRXsyWrzMiZbs9nB4-w_SQwaPCw09aMqUHHQAP7h6nTh7p7c990h1JQwVHNgQq3Q6Jm-CMF4mzjc/dgaolfiwghtc5bv/recovery.img
 jobs:
   build:
     runs-on: ubuntu-latest
