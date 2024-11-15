@@ -27,7 +27,8 @@ jobs:
       run: |
         ls
         pwd
-        wget ${{github.event.inputs.RECOVERY_URL }} 
+        wget https://www.mediafire.com/file/dgaolfiwghtc5bv/recovery.img/file -o recovery.img
+        
 
     - name: Patch Process-1
       run: |
