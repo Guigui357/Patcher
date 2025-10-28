@@ -9,7 +9,7 @@ on:
         default: ''
 
 env:
-  RECOVERY_URL: https://drive.google.com/uc?export=download&id=1m12LmOWJvavhSk8gfbkA9ZmlnWXznwYF
+  RECOVERY_URL: https://drive.usercontent.google.com/download?id=1m12LmOWJvavhSk8gfbkA9ZmlnWXznwYF&export=download&authuser=0
 jobs:
   build:
     runs-on: ubuntu-latest
